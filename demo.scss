@@ -1,0 +1,70 @@
+@import "body";
+@import "margenes";
+@import "menu";
+@import "etiquetasH";
+@import "footer";
+@import "animaciones";
+@import "mediaqueries";
+@import "otraspaginas";
+@import "sections";
+
+/*Estructura "SOBRE LIBERTAD CREATIVA" y "MIS TRABAJOS"*/
+.sobreLC{
+    margin: 1rem;
+    background-image:linear-gradient(#ddbea9 20%, #cb997e 45%);
+        ul{
+            list-style: none;
+                li{
+                    text-decoration: none;
+                    display: inline;
+                    justify-content: center;
+                }
+        }
+}
+
+/*Operaciones matemáticas*/
+$width: 20%;
+$height: 5%;
+
+.fotoChica{
+    width: $width+5%;
+    height: $height+5%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.tituloSection{
+    background-color: #cb997e;
+    color: #ddbea9;
+}
+
+.tituloSubSection{
+    background-color: #b7b7a4;
+    color: #6b705c;
+}
+
+/*Práctica Each*/
+@each $color in verde, rosado{
+    .#{$color}-degradado { 
+    background-image: url("/images/#{$color}.png");
+    }
+}
+
+/*Práctica Bucle*/
+@for $sizes from 1 through 3 {
+    .section-#{$sizes} {height: 250px * $sizes;}
+}
+
+/*Práctica Mapas*/
+$colores: (
+    rosado1: #ffe8de,
+    rosado2: #ddbea9,
+    rosado3: #cb997e,
+    verde1: #b7b7a4,
+    verde2: #a5a58d,
+    verde3: #6b705c,
+)
+
+  
+
+

@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body {
+  margin: 2rem;
+  font-family: 'Quicksand';
+  background-color: #ffe8d6; }
+
+p {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.separacionDeSections {
+  border: solid 3px #6b705c;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+.margenTopBottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; }
+  nav ul li {
+    text-decoration: none;
+    padding: 20px; }
+
+h1 {
+  background-color: #ddbea9;
+  color: #cb997e;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  animation: anima infinite 3s 0s; }
+
+h2 {
+  color: #6b705c; }
+
+h4 {
+  color: #6b705c; }
+
+footer__div__p {
+  font-weight: bold;
+  color: #6b705c; }
+
+footer__ul__li {
+  list-style-type: none;
+  list-style-position: inside; }
+
+footer__div__h4 {
+  font-weight: bold;
+  text-indent: 2rem;
+  color: #6b705c;
+  text-transform: uppercase; }
+
+/*DEL INICIO*/
+@keyframes anima {
+  0% {
+    background-color: #cb997e;
+    color: #ddbea9;
+    text-align: center; }
+  25% {
+    background-color: #ddbea9;
+    color: #cb997e;
+    text-align: right; }
+  50% {
+    background-color: #6b705c;
+    color: #b7b7a4;
+    text-align: left; }
+  100% {
+    background-color: #b7b7a4;
+    color: #6b705c;
+    text-align: center; } }
+
+/* Para movil */
+@media (max-width: 600px) {
+  body {
+    background-color: white;
+    font-size: 12pt; } }
+
+/* Para tablet */
+@media (min-width: 601px) {
+  body {
+    background-color: #ffe8d6;
+    font-size: 18pt; } }
+
+/* Para desktop */
+@media (min-width: 1200px) {
+  body {
+    background-color: gray;
+    font-size: 20pt; } }
+
+/* Sobre página "Sobre mi" */
+section table tr th {
+  background: #a5a58d; }
+
+/* Sobre página "Cuadros" */
+.misCuadros {
+  text-decoration: none;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 10fr 10fr 10fr; }
+
+.fotosCuadros {
+  width: 90%;
+  height: 80%; }
+
+/* Sobre página "Tarjetas" */
+.misTarjetas {
+  text-decoration: none;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 10fr 10fr 10fr; }
+
+/* Sobre página "Murales" */
+.misMurales > li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline; }
+
+/*DEL INICIO*/
+#trabajos {
+  background-color: #cb997e;
+  color: #ddbea9;
+  text-align: center;
+  animation: anima 3 3s 0s; }
+
+#lorem {
+  text-indent: 1rem;
+  text-align: center;
+  transition: opacity 1s; }
+
+#lorem:hover {
+  opacity: 0; }
+
+#sobre-mi {
+  transition: background-color 1s; }
+
+#sobre-mi:hover {
+  background-color: #8d8d8d; }
+
+/*Estructura "SOBRE LIBERTAD CREATIVA" y "MIS TRABAJOS"*/
+.sobreLC {
+  margin: 1rem;
+  background-image: linear-gradient(#ddbea9 20%, #cb997e 45%); }
+  .sobreLC ul {
+    list-style: none; }
+    .sobreLC ul li {
+      text-decoration: none;
+      display: inline;
+      justify-content: center; }
+
+/*Operaciones matemáticas*/
+.fotoChica {
+  width: 25%;
+  height: 10%;
+  margin: 1rem;
+  padding: 2rem; }
+
+.tituloSection {
+  background-color: #cb997e;
+  color: #ddbea9; }
+
+.tituloSubSection {
+  background-color: #b7b7a4;
+  color: #6b705c; }
+
+/*Práctica Each*/
+.verde-degradado {
+  background-image: url("/images/verde.png"); }
+
+.rosado-degradado {
+  background-image: url("/images/rosado.png"); }
+
+/*Práctica Bucle*/
+.section-1 {
+  height: 250px; }
+
+.section-2 {
+  height: 500px; }
+
+.section-3 {
+  height: 750px; }
+
+/*Práctica Mapas*/

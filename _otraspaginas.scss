@@ -1,0 +1,34 @@
+/* Sobre página "Sobre mi" */
+section table tr th{
+    background: #a5a58d;
+}
+
+/* Sobre página "Cuadros" */
+.misCuadros{
+    text-decoration: none;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10fr 10fr 10fr;
+}
+
+.fotosCuadros{
+    width: 90%;
+    height: 80%;
+}
+
+/* Sobre página "Tarjetas" */
+.misTarjetas{
+    text-decoration: none;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10fr 10fr 10fr;
+}
+
+/* Sobre página "Murales" */
+.misMurales > li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}

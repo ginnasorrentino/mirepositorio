@@ -1,0 +1,25 @@
+/*DEL INICIO*/
+#trabajos{
+    background-color: #cb997e;
+    color: #ddbea9;
+    text-align: center;
+    animation: anima 3 3s 0s;
+}
+
+#lorem{
+    text-indent: 1rem;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+#lorem:hover{
+    opacity: 0;
+}
+
+#sobre-mi{
+transition: background-color 1s;
+}
+
+#sobre-mi:hover{
+    background-color: #8d8d8d;
+}
