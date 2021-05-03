@@ -26,6 +26,13 @@
 $width: 20%;
 $height: 5%;
 
+.fotosChicas{
+    width: $width+10%;
+    height: $height+15%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
 .fotoChica{
     width: $width+5%;
     height: $height+5%;
