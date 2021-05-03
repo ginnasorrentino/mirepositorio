@@ -87,13 +87,13 @@ footer__div__h4 {
 @media (min-width: 601px) {
   body {
     background-color: #ffe8d6;
-    font-size: 18pt; } }
+    font-size: 14pt; } }
 
 /* Para desktop */
 @media (min-width: 1200px) {
   body {
-    background-color: gray;
-    font-size: 20pt; } }
+    background-color: #FFD1AD;
+    font-size: 16pt; } }
 
 /* Sobre página "Sobre mi" */
 section table tr th {
@@ -118,6 +118,10 @@ section table tr th {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 10fr 10fr 10fr; }
+
+.fotosTarjetas {
+  width: 90%;
+  height: 80%; }
 
 /* Sobre página "Murales" */
 .misMurales > li {
@@ -158,6 +162,12 @@ section table tr th {
       justify-content: center; }
 
 /*Operaciones matemáticas*/
+.fotosChicas {
+  width: 30%;
+  height: 20%;
+  margin: 1rem;
+  padding: 2rem; }
+
 .fotoChica {
   width: 25%;
   height: 10%;
