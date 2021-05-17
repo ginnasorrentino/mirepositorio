@@ -1,25 +1,45 @@
-/*DEL INICIO*/
-#trabajos{
-    background-color: #cb997e;
-    color: #ddbea9;
+/*Estructura "SOBRE LIBERTAD CREATIVA en el INICIO"*/
+.sobreLC{
+    margin-top: 1rem;
+}
+
+#start{
+    padding-top: 60px;
     text-align: center;
-    animation: anima 3 3s 0s;
+    color: #6D5447;
 }
 
-#lorem{
-    text-indent: 1rem;
+#end{
+    padding-bottom: 100px;
     text-align: center;
-    transition: opacity 1s;
+    color: #6D5447;
 }
 
-#lorem:hover{
-    opacity: 0;
+#medio{
+    text-align: center;
+    color: #6D5447;
 }
 
-#sobre-mi{
-transition: background-color 1s;
+p{
+    color: #6D5447;  
 }
 
-#sobre-mi:hover{
-    background-color: #8d8d8d;
+/* Display de Imágenes en el Home */
+.displayHome > li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
 }
+
+/*Formatos para imágenes */
+/*Operaciones matemáticas*/
+$width: 20%;
+$height: 5%;
+
+.fotosChicas{
+    width: $width+10%;
+    height: $height+15%;
+    margin: 1rem;
+    padding: 2rem;
+}
+

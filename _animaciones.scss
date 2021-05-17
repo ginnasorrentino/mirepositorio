@@ -1,19 +1,19 @@
 /*DEL INICIO*/
 @keyframes anima{
     0%{ background-color: #cb997e;
-        color: #ddbea9;
+        color: #ffe8de;
         text-align: center;}
 
-    25%{background-color: #ddbea9;
+    25%{background-color: #ffe8de;
         color: #cb997e;
         text-align: right;}  
     
-    50%{background-color: #6b705c;
-        color: #b7b7a4;
+    50%{background-color: #cb997e;
+        color: #ffe8de;
         text-align: left;}
         
-    100%{background-color: #b7b7a4;
-        color: #6b705c;
+    100%{background-color: #ffe8de;
+        color: #cb997e;
         text-align: center;}        
 }
 
