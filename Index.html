@@ -8,7 +8,7 @@
 	<meta name="keywords" content="creatividad, artesanía, murales, cuadros, tarjetas, diseño"
 	<meta name="description=" content="Artesanía hecha a mano. Mirá las opciones de cuadros, tarjetas y murales disponibles.">
 	<title>Inicio | Libertad Creativa</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/prueba.css">
 </head>
@@ -16,31 +16,36 @@
 <body>
 	<header>
 		<section>
-			<h1>LIBERTAD CREATIVA</h1>
-	  			<nav>
+			<div class="logo"><img src="images/Libertad-Creativa-2.png" alt="Libertad-Creativa"></div>
+				<nav>
 		 	 		<ul>
-			  		 	<li><a href="Index.html">Inicio</a></li>
-			  			<li><a href="sobremi.html">Sobre mí</a></li>
-			  			<li><a href="cuadros.html">Cuadros</a></li>
-			  			<li><a href="murales.html">Murales</a></li>
-			  			<li><a href="tarjetas.html">Tarjetas</a></li>
+						<li><a href="Index.html">Inicio</a></li>
+						<li><a href="cuadros.html">Cuadros</a></li>
+						<li><a href="murales.html">Murales</a></li>
+						<li><a href="tarjetas.html">Tarjetas</a></li>
+					 	<li><a href="contacto.html">Contacto</a></li>
 					</ul>
 				</nav>
+			<h1>¡Bienvenid@!</h1>
 		</section>
 	</header>
-
-	<hr class="separacionDeSections">
 
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 		  <div class="carousel-item active">
-			<img src="images/1.jpg" class="d-block w-100" alt="...">
+			<img src="images/Empresa.jpg" class="d-block w-100" alt="Libertad-Creativa">
 		  </div>
 		  <div class="carousel-item">
-			<img src="images/2.jpg" class="d-block w-100" alt="...">
+			<img src="images/Acerca.jpg" class="d-block w-100" alt="Acerca-de-Libertad-Creativa">
 		  </div>
 		  <div class="carousel-item">
-			<img src="images/3.jpg" class="d-block w-100" alt="...">
+			<img src="images/Productos.jpg" class="d-block w-100" alt="Productos">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/Recomendaciones.jpg" class="d-block w-100" alt="Comentarios">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/Contacto.jpg" class="d-block w-100" alt="Contacto">
 		  </div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -54,70 +59,47 @@
 	</div>
 	
 	<div class="sobreLC">
-		<h2 id="sobre-mi" class="tituloSection">SOBRE LIBERTAD CREATIVA:</h2>
-		<ul>
-			<li><img src="images/5.jpg" class="fotoChica" alt="cuadro"></li>
-			<li><img src="images/2.jpg" class="fotoChica" alt="mural"></li>
-			<li><img src="images/1.jpg" class="fotoChica" alt="tarjeta"></li>
-		</ul>
-		<p id="lorem">Hola, soy Ginna. La microemeprendedora detrás de Libertad Creativa. Tengo 30 años, soy paraguaya y me encantan las manualidades. Quiero mostrarte algunos de mis últimos trabajos. Te invito a que los revises y hagas tus pedidos sobre los artículos que te interesan.</p>
+		<h2>SOBRE LIBERTAD CREATIVA:</h2>
+		<p id="start">Somos un equipo de creativos a quienes nos encantan las manualidades.</p>
+		<p id="medio">Lanzamos esta página como medio para hacer llegar el arte paraguayo a más personas.</p>
+		<p id="medio">Te invitamos a que revises nuestros últimos trabajos esperando que también te gusten.</p>
+		<p id="end">Si te gustaría hacer algún pedido, no dudes en contactarnos</p>
 	</div>
 	
-	<hr class="separacionDeSections">
-
-	<h2 id="trabajos" class="tituloSection">TRABAJOS DE ARTESANÍA:</h2>
+	<h2>TRABAJOS DE ARTESANÍA:</h2>
    
-	<section class="uno">
-		<h2 id="cuadros" class="tituloSubSection">CUADROS</h2>
-		<img src="images/2.jpg" class="fotosChicas" alt="cuadros">
-		<p> Estos son algunos de los cuadros que he trabajado en los últimos tiempos.</p>
+	<section>
+		<h3>CUADROS</h3>
+		<ul class="displayHome">
+			<li><img src="images/cuadro1.jpg" class="fotosChicas" alt="cuadro-1"></li>
+			<li><img src="images/cuadro2.jpg" class="fotosChicas" alt="cuadro-2"></li>
+			<li><img src="images/cuadro3.jpg" class="fotosChicas" alt="cuadro-3"></li>
+		</ul>
 	</section>
 	
-	<section class="uno">
-		<h2 id="murales" class="tituloSubSection">MURALES</h2>
-		<img src="images/3.jpg" class="fotosChicas" alt="murales">
-		<p> Aquí te muestro algunos de los murales que he hecho.</p>
+	<section>
+		<h3>MURALES</h3>
+		<ul class="displayHome">
+			<li><img src="images/mural1.jpg" class="fotosChicas" alt="mural-1"></li>
+			<li><img src="images/mural2.jpg" class="fotosChicas" alt="mural-2"></li>
+			<li><img src="images/mural3.jpg" class="fotosChicas" alt="mural-3"></li>
+		</ul>
 	</section>
 	
-	<section class="uno"> 
-		<h2 id="tarjetas" class="tituloSubSection">TARJETAS</h2>
-		<img src="images/1.jpg" class="fotosChicas" alt="tarjetas">
-		<p> Mirá estos modelos de tarjetas de presentación, de casamientos y más. Podés personalizarlas!</p>
+	<section> 
+		<h3>TARJETAS</h3>
+		<ul class="displayHome">
+			<li><img src="images/tarjeta1.jpg" class="fotosChicas" alt="tarjeta-1"></li>
+			<li><img src="images/tarjeta2.jpg" class="fotosChicas" alt="tarjeta-2"></li>
+			<li><img src="images/tarjeta3.jpg" class="fotosChicas" alt="tarjeta-3"></li>
+		</ul>
 	</section>
 
-	<hr class="separacionDeSections">
-	&nbsp;
-	<h4>REGISTRATE AQUÍ A NUESTRO NEWSLETTER:</h4>
-	<form>
-			<div class="form-group">
-			  <label for="Nombre">Nombre</label>
-			  <input type="text">
-			</div>
-			<div class="form-group">
-			  <label for="Email">Email</label>
-			  <input type="email">
-			</div>
-	</form>
-	&nbsp;
-	<hr class="separacionDeSections">
-
-	<footer class="margenTopBottom">
-		<div>
-			<h4>OTROS LINKS DE INTERÉS:</h4>
-			<ul>
-				<li><a href="Index.html">Términos y Condiciones</a></li>
-				<li><a href="Index.html">Blog</a></li>
-			</ul>
-		</div>
-		<div>
-			<h4>SEGUINOS EN LAS REDES:</h4>
-			<ul>
-				<li><a href="https://www.facebook.com/">Facebook</a></li>
-				<li><a href="https://instagram.com/">Instagram</a></li>
-			</ul>
-		</div>
+	<footer>
+	<h2>SEGUINOS EN LAS REDES:</h2>
+	<div><a href="https://www.facebook.com/"><img src="images/fb.jpg"></a> &nbsp; @libertadcreativa</div>
+	<div><a href="https://www.instagram.com/"><img src="images/in.jpg"></a> &nbsp; @libertadcreativa.py</div>
 	</footer>
-
 
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
