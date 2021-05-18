@@ -76,19 +76,34 @@ footer {
 @media (max-width: 600px) {
   body {
     background-color: white;
-    font-size: 12pt; } }
+    font-size: 12pt; }
+  .fotosChicas {
+    width: 95%;
+    height: 90%;
+    margin: 1rem;
+    padding: 2rem; } }
 
 /* Para tablet */
 @media (min-width: 601px) {
   body {
     background-color: #ffe8d6;
-    font-size: 14pt; } }
+    font-size: 14pt; }
+  .fotosChicas {
+    width: 45%;
+    height: 40%;
+    margin: 1rem;
+    padding: 2rem; } }
 
 /* Para desktop */
 @media (min-width: 1200px) {
   body {
     background-color: #FFD1AD;
-    font-size: 16pt; } }
+    font-size: 16pt; }
+  .fotosChicas {
+    width: 30%;
+    height: 20%;
+    margin: 1rem;
+    padding: 2rem; } }
 
 /* Sobre página "Cuadros", "Murales" y "Tarjetas" */
 .misCollages > li {
@@ -122,14 +137,6 @@ p {
   text-decoration: none;
   list-style-type: none;
   display: inline; }
-
-/*Formatos para imágenes */
-/*Operaciones matemáticas*/
-.fotosChicas {
-  width: 30%;
-  height: 20%;
-  margin: 1rem;
-  padding: 2rem; }
 
 .logo {
   padding-bottom: 20px;
